@@ -1,6 +1,9 @@
 class CreateStations < ActiveRecord::Migration
-  def change
+  def up
+    drop_table :stations
+    
     create_table :stations do |t|
+      t.string :model
 
       t.timestamps
     end

@@ -1,6 +1,7 @@
 Project::Application.routes.draw do
   resources :stations
   
+  root to: "stations#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

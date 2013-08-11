@@ -1,3 +1,77 @@
-// Place all the styles related to the stations controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+nav {
+	background-color: #333333;
+	color: #eee;
+	height: 100px ;
+	width: 70%;
+	margin-left: 15% ;
+	box-shadow: 3px 3px 3px #888;
+	-mox-box-shadow: 3x 3px 3px #888;
+	-webkit-box-shadow: 3px 3px 3px #888;
+}
+nav ul{
+	float:right;
+	margin-top:10px;
+}
+nav ul li {
+	font-size:18px;
+	float:left;
+	margin:10px;
+}
+
+div#stations {
+	background-color: #159fea;
+	color:#eee;
+	width:60%;
+	padding-top: 30px;
+	padding-bottom:30px;
+	margin-left: 20%;
+	border-radius: 0px 0px 5px 5px;
+	box-shadow: 3px 3px 3px #888;
+	-mox-box-shadow: 3x 3px 3px #888;
+	-webkit-box-shadow: 3px 3px 3px #888;
+}
+
+h1#st {
+	text-align: center;
+	font-size: 23px ;
+}
+.button_b {
+	padding:4px;
+	border-radius:20px;
+	border-color:#159fea;
+	border-style:solid;
+	border-width: 2px;
+	border-top-width: 1px;
+}
+.button_a{
+	background-color:#fff;
+	padding:6px;
+	padding-top:3px;
+	border-radius:20px;
+	box-shadow:inset -2px -2px 5px #888;
+	-mox-box-shadow:inset -2x -2px 5px #888;
+	-webkit-box-shadow:inset -2px -2px 5px #888;
+}
+.button_a:hover{
+	background-color:#dfdfdf;
+	
+}
+.button_a:active{
+	background-color:#dfdfdf;
+	box-shadow:inset 2px 2px 5px #888;
+	-mox-box-shadow:inset 2x 2px 5px #888;
+	-webkit-box-shadow:inset 2px 2px 5px #888;
+}
+
+.button_a a{
+	text-decoration:none;		
+}
+.button_a a:hover{ 
+	text-decoration:none;
+	background-color:#dfdfdf;
+	color:#333;
+}
+.button_a a:active{
+	text-decoration:none;
+	background-color:#dfdfdf;		
+}

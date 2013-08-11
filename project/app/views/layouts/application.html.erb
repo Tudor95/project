@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Project</title>
+  <title>EVConsult</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<header>
+		<nav>
+			<ul>
+				<li class="button_b">Location</li>
+				<li class="button_b">Comparison</li>
+				<li></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="stations">
+		<%= yield %>
+	</div>
 </body>
 </html>
