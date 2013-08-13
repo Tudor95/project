@@ -1,29 +1,10 @@
 <h1 id="st">Stations</h1>
+      
+<div id="stations">
+  <%= render @stations %>
+</div>
 
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @stations.each do |station| %>
-      <tr>
-      	<td><%= station.supplier %></td>
-      	<td><%= station.product %></td>
-		<td><%= station.model%></td>
-		<td><%= station.price%></td>
-        <td class="button_a"><%= link_to 'Show', station %></td>
-        <td class="button_a"><%= link_to 'Edit', edit_station_path(station) %></td>
-        <td class="button_a"><%= link_to 'Destroy', station, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<h1 class="button_a"><%= link_to 'New Station', new_station_path %></h1>
+<br/ >
+<div class="button_a" >
+	<%= link_to 'New Station', new_station_path %>
+</div>

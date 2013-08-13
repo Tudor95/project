@@ -44,6 +44,8 @@ h1#st {
 	border-top-width: 1px;
 }
 .button_a{
+	float:left;
+	width:auto;
 	background-color:#fff;
 	padding:6px;
 	padding-top:3px;
@@ -68,10 +70,10 @@ h1#st {
 }
 .button_a a:hover{ 
 	text-decoration:none;
-	background-color:#dfdfdf;
+	background-color:transparent;
 	color:#333;
 }
 .button_a a:active{
 	text-decoration:none;
-	background-color:#dfdfdf;		
+	background-color:transparent;		
 }
