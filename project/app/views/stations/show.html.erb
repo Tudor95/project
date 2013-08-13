@@ -1,12 +1,12 @@
 <ul>
-	<p id="notice"><%= notice %></p>
-
-	<%=@station.supplier%>
-	<%=@station.product%>
-	<%=@station.model%>
-	<%=@station.price%>
+	<li><p id="notice"><%= notice %></p></li>
+    <li><%= image_tag @station.avatar.url(:medium) %></li>
+	<li><%=@station.supplier%></li>
+	<li><%=@station.product%></li>
+	<li><%=@station.model%></li>
+	<li><%=@station.price%></li>
 </ul>	
 <ul>
-	<li><%= link_to 'Edit', edit_station_path(@station) %></li> |
-	<li><%= link_to 'Back', stations_path %></li>
+	<li class="button_a"><%= link_to 'Edit', edit_station_path(@station) %></li> |
+	<li class="button_a"><%= link_to 'Back', stations_path %></li>
 </ul>

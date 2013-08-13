@@ -1,25 +1,28 @@
-<%= form_for(@station) do |f| %>
+<%= form_for @station, :html => { :multipart => true }  do |f| %>
   <% if @station.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@station.errors.count, "error") %> prohibited this station from being saved:</h2>
 
       <ul>
       <% @station.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+        <li class="err_msg"><%= msg %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
 
   <div class="actions">
-  	<%= f.label :supplier%>
-	<%= f.text_field :supplier%>
-	<%= f.label :product%>
-	<%= f.text_field :product%>
-  	<%= f.label :model%>
-	<%= f.text_field :model%>
-	<%= f.label :price%>
-	<%= f.number_field :price%>
-    <%= f.submit %>
+  	<ul>
+  		<li><%= f.label :supplier%></li>
+		<li><%= f.text_field :supplier%></li>
+		<li><%= f.label :product%></li>
+		<li><%= f.text_field :product%></li>
+  		<li><%= f.label :model%></li>
+		<li><%= f.text_field :model%></li>
+		<li><%= f.label :price%></li>
+		<li><%= f.number_field :price%></li>
+		<li><%= f.file_field :avatar %></li>
+    	<li><%= f.submit %></li>
+	</ul>
   </div>
 <% end %>

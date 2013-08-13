@@ -17,8 +17,14 @@ nav ul li {
 	float:left;
 	margin:10px;
 }
+div#stations{
+	margin:10%;
 
-div#stations {
+}
+div#station{
+	margin-bottom:130px;
+}
+div#content {
 	background-color: #159fea;
 	color:#eee;
 	width:60%;
@@ -42,6 +48,19 @@ h1#st {
 	border-style:solid;
 	border-width: 2px;
 	border-top-width: 1px;
+}
+.button_b a{
+	color:#eee;
+	text-decoration:none;		
+}
+.button_b a:hover{ 
+	text-decoration:none;
+	background-color:transparent;
+	color:#bbb;
+}
+.button_b a:active{
+	text-decoration:none;
+	background-color:transparent;		
 }
 .button_a{
 	float:left;
@@ -76,4 +95,7 @@ h1#st {
 .button_a a:active{
 	text-decoration:none;
 	background-color:transparent;		
+}
+DIV#error_explanation{
+	background-color:#cc0000;
 }

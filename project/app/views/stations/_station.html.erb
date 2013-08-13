@@ -1,5 +1,6 @@
 <%= div_for station do %>
-	<div id=""station>
+	<div id="station">
+		<%= image_tag station.avatar.url(:thumb) %>
 		<ul>
       		<li>Supplier <%= station.supplier %></li>
       		<li>Product <%= station.product %></li>
