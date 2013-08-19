@@ -1,4 +1,4 @@
-<%= div_for station do %>
+<tr></tr><%= div_for station do %>
 	<div id="station">
 		<%= image_tag station.avatar.url(:thumb) %>
 		<ul>
@@ -9,6 +9,7 @@
       		<li class="button_a"><%= link_to 'Show', station %></li>
       		<li class="button_a"><%= link_to 'Edit', edit_station_path(station) %></li>
       		<li class="button_a"><%= link_to 'Destroy', station, method: :delete, data: { confirm: 'Are you sure?' } %></li>
+			<li id="compare" class="button_a">Compare</li>
     	</ul>
 	</div>
-<%end%> 
+<%end%>

@@ -13,6 +13,7 @@ nav ul{
 	margin-top:10px;
 }
 nav ul li {
+	font-family: helvetica, sans-serif;
 	font-size:18px;
 	float:left;
 	margin:10px;
@@ -38,6 +39,7 @@ div#content {
 }
 
 h1#st {
+	font-family:sans-serif;
 	text-align: center;
 	font-size: 23px ;
 }
@@ -63,6 +65,7 @@ h1#st {
 	background-color:transparent;		
 }
 .button_a{
+	color:#333333;
 	float:left;
 	width:auto;
 	background-color:#fff;
@@ -98,4 +101,18 @@ h1#st {
 }
 DIV#error_explanation{
 	background-color:#cc0000;
+}
+div#compare{
+	display: none;
+	width:14%;
+	background-color: #333333;
+	color: #eee;
+	height:500px;
+	position:fixed;
+	right:0;
+	top: 20%;
+	
+}
+.highlight {
+	background-color:#00ff00;
 }
