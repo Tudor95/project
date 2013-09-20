@@ -49,7 +49,7 @@ h1#st {
 	text-align: center;
 	font-size: 23px ;
 }
-.button_b {
+nav li {
 	padding:4px;
 	border-radius:20px;
 	border-color:#159fea;
@@ -57,20 +57,20 @@ h1#st {
 	border-width: 2px;
 	border-top-width: 1px;
 }
-.button_b a{
+nav li a{
 	color:#eee;
 	text-decoration:none;		
 }
-.button_b a:hover{ 
+nav li a:hover{ 
 	text-decoration:none;
 	background-color:transparent;
 	color:#bbb;
 }
-.button_b a:active{
+nav li a:active{
 	text-decoration:none;
 	background-color:transparent;		
 }
-.button_a{
+.button{
 	float:left;
 	color:#333333;
 	width:auto;
@@ -82,30 +82,30 @@ h1#st {
 	-mox-box-shadow:inset -2x -2px 5px #888;
 	-webkit-box-shadow:inset -2px -2px 5px #888;
 }
-.button_a:hover{
+.button:hover{
 	background-color:#dfdfdf;
 	
 }
-.button_a:active{
+.button:active{
 	background-color:#dfdfdf;
 	box-shadow:inset 2px 2px 5px #888;
 	-mox-box-shadow:inset 2x 2px 5px #888;
 	-webkit-box-shadow:inset 2px 2px 5px #888;
 }
 
-.button_a a{
+.button a{
 	text-decoration:none;		
 }
-.button_a a:hover{ 
+.button a:hover{ 
 	text-decoration:none;
 	background-color:transparent;
 	color:#333;
 }
-.button_a a:active{
+.button a:active{
 	text-decoration:none;
 	background-color:transparent;		
 }
-DIV#error_explanation{
+div#error_explanation{
 	background-color:#cc0000;
 }
 div#compare{
