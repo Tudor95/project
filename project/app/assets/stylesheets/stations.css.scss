@@ -23,7 +23,13 @@ div#stations{
 
 }
 div#station{
+	overflow: hidden;
 	margin-bottom:130px;
+}
+div#station img{
+	float:left;
+}
+div#station li{
 }
 div#content {
 	background-color: #159fea;
@@ -65,8 +71,8 @@ h1#st {
 	background-color:transparent;		
 }
 .button_a{
-	color:#333333;
 	float:left;
+	color:#333333;
 	width:auto;
 	background-color:#fff;
 	padding:6px;
@@ -112,6 +118,9 @@ div#compare{
 	right:0;
 	top: 20%;
 	
+}
+#unselect{
+ display: none;
 }
 .highlight {
 	background-color:#00ff00;
